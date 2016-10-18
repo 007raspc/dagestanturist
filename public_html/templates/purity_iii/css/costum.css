@@ -1,0 +1,11 @@
+.contacts .left_side {
+    width: 70%;
+    float: left;
+    line-height: 56px;
+}
+.contacts .right_side {
+    width: 20%;
+    float: left;
+    font-size: 4em;
+    line-height: 56px;
+}

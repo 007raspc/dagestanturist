@@ -45,3 +45,34 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+/becup/*
+/public_html/administrator/*
+/public_html/bin/*
+/public_html/cache/*
+/public_html/cli/*
+/public_html/components/*
+/public_html/includes/*
+/public_html/language/*
+/public_html/layouts/*
+/public_html/libraries/*.php
+/public_html/libraries/*.html
+/public_html/libraries/cms/*
+/public_html/libraries/fof/*
+/public_html/libraries/idna_convert/*
+/public_html/libraries/joomla/*
+/public_html/libraries/legacy/*
+/public_html/libraries/php-encryption/*
+/public_html/libraries/phpass/*
+/public_html/libraries/phputp8/*
+/public_html/libraries/vendor/*
+/public_html/logs/*
+/public_html/media/*
+/public_html/modules/*
+/public_html/plugins/*
+/public_html/templates/beez3/*
+/public_html/templates/system/*
+/public_html/templates/*.html
+/public_html/templates/protostar/*
+/public_html/tmp/*
