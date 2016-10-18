@@ -9,3 +9,61 @@
     font-size: 4em;
     line-height: 56px;
 }
+/* Начало стили главного слайдера */
+.main_slider .owl_itm img {
+	position: absolute;
+	z-index: 1;
+}
+.main_slider .owl_itm h2,
+.main_slider .owl_itm .aside,
+.main_slider .owl_itm .bside {
+	position: relative;
+	z-index: 2;
+}
+.main_slider .owl_itm .aside,
+.main_slider .owl_itm .bside {
+    width: 30%;
+    color: white;
+    margin-left: 20%;
+    margin-top: 30px;
+    float: left;
+}
+.main_slider .owl_itm .aside {
+	margin-left: 20%;
+}
+.main_sl .main_slider_dot,
+.main_sl .owl-nav {
+    position: absolute;
+    color: white;
+    top: 150px;
+    z-index: 3;
+    list-style-type: none;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.main_sl .owl-nav {
+    right: 5%;
+}
+.main_sl .owl-nav {
+    right: 5%;
+}
+.main_sl .main_slider_dot a {
+	font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.main_sl .main_slider_dot li.active a {
+	font-size: 3rem;
+}
+.main_sl .main_slider_dot a:hover,
+.main_sl .main_slider_dot a:focus,
+.main_sl .main_slider_dot a:active,
+.main_sl .main_slider_dot a:visited {
+	text-decoration: none;
+	color: white;
+}
+/* Конец стили главного слайдера */

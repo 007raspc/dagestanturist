@@ -84,4 +84,15 @@ if (!$sitename) {
 </header>
 <!-- //MAIN NAVIGATION -->
 
+<!-- //Start output module position-748 -->
+<?php
+jimport( 'joomla.application.module.helper' );
+$module = JModuleHelper::getModules('position-748');
+$attribs['style'] = 'none'; 
+foreach($module as $moduleitem){
+	echo JModuleHelper::renderModule($moduleitem, $attribs);
+}
+?>
+<!-- //End output module position-748 -->
+
 <?php $this->loadBlock ('masthead') ?>

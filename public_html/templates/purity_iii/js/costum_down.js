@@ -13,6 +13,7 @@ jQuery(document).ready(function($) {
 	  autoplayTimeout:10000,
 	  items:1,
 	  nav:true,
+	  navClass:['fa-angle-left','fa-angle-right'],
 	  dotsContainer:'#dotitem',
 	  RLhashListener:true,
 	  startPosition:'URLHash'

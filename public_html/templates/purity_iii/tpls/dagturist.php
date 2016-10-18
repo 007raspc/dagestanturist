@@ -30,6 +30,7 @@ defined('_JEXEC') or die;
 	<?php $this->loadBlock('head') ?>
 	<?php $this->addCss('layouts/corporate') ?>
 	
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Rubik:500" rel="stylesheet">
 	<link rel="stylesheet" href="/libraries/ResponsiveSlides/responsiveslides.css" />
 	<link rel="stylesheet" href="/libraries/OwlCarousel2/assets/owl.carousel.min.css" />
 	<link rel="stylesheet" href="/libraries/OwlCarousel2/assets/owl.theme.default.css" />
